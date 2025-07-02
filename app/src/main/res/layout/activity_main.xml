@@ -15,11 +15,11 @@
             android:id="@+id/main_collapsing_toolbar_layout"
             android:layout_width="match_parent"
             android:layout_height="?attr/collapsingToolbarLayoutLargeSize"
-            
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
             app:contentScrim="@color/colorPrimary"
             android:fitsSystemWindows="true"
             app:title="My Flight"
+            app:titleEnabled="true"
                 >
             <ImageView
                 android:layout_width="match_parent"
