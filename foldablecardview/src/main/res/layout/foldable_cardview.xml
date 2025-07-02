@@ -39,7 +39,7 @@
 				android:maxLines="1"
 				android:maxLength="39"
 				android:layout_toEndOf="@+id/card_icon"
-				android:textColor="@android:color/primary_text_light"/>
+				/>
 
 			<ImageButton
 				android:id="@+id/card_arrow"
