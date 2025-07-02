@@ -7,15 +7,15 @@
         >
 
     <com.google.android.material.appbar.AppBarLayout
-        android:layout_height="252dp"
+        android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:fitsSystemWindows="true"
             >
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:id="@+id/main_collapsing_toolbar_layout"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:expandedTitleMarginBottom="52dp"
+            android:layout_height="?attr/collapsingToolbarLayoutLargeSize"
+            
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
             app:contentScrim="@color/colorPrimary"
             android:fitsSystemWindows="true"
@@ -31,9 +31,9 @@
                 android:fitsSystemWindows="true"
                 android:scaleType="centerCrop"
                     />
-            <androidx.appcompat.widget.Toolbar
+            <com.google.android.material.appbar.MaterialToolbar
                 android:id="@+id/main_toolbar"
-                android:layout_height="92dp"
+                android:layout_height="?attr/actionBarSize"
                 android:layout_width="match_parent"
                 android:theme="@style/toolbarTheme"
                 app:layout_collapseMode="pin"
