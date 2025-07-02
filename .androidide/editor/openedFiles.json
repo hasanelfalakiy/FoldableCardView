@@ -1,35 +1,20 @@
 {
   "allFiles": [
     {
-      "file": "/storage/emulated/0/AndroidIDEProjects/FoldableCardView/app/src/main/res/layout/activity_main.xml",
+      "file": "/storage/emulated/0/AndroidIDEProjects/FoldableCardView/app/src/main/res/layout/passengers.xml",
       "selection": {
         "end": {
-          "column": 74,
-          "index": 751,
-          "line": 16
+          "column": 44,
+          "index": 1525,
+          "line": 40
         },
         "start": {
-          "column": 74,
-          "index": 751,
-          "line": 16
-        }
-      }
-    },
-    {
-      "file": "/storage/emulated/0/AndroidIDEProjects/FoldableCardView/app/src/main/res/values/themes.xml",
-      "selection": {
-        "end": {
-          "column": 12,
-          "index": 911,
-          "line": 18
-        },
-        "start": {
-          "column": 0,
-          "index": 0,
-          "line": 0
+          "column": 44,
+          "index": 1525,
+          "line": 40
         }
       }
     }
   ],
-  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/FoldableCardView/app/src/main/res/layout/activity_main.xml"
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/FoldableCardView/app/src/main/res/layout/passengers.xml"
 }
