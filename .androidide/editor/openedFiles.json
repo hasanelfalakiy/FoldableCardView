@@ -1,0 +1,35 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/FoldableCardView/foldablecardview/src/main/res/layout/foldable_cardview.xml",
+      "selection": {
+        "end": {
+          "column": 37,
+          "index": 195,
+          "line": 4
+        },
+        "start": {
+          "column": 37,
+          "index": 195,
+          "line": 4
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/FoldableCardView/foldablecardview/build.gradle.kts",
+      "selection": {
+        "end": {
+          "column": 7,
+          "index": 853,
+          "line": 39
+        },
+        "start": {
+          "column": 7,
+          "index": 853,
+          "line": 39
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/FoldableCardView/foldablecardview/build.gradle.kts"
+}
