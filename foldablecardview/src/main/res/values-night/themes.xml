@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <!-- Base application theme. -->
+  <style name="Base.AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+    <!-- Customize your theme here. -->
+    <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <item name="colorPrimary">@color/md_theme_dark_primary</item>
+    <item name="colorSurface">@color/md_theme_dark_surface</item>
+  </style>
+
+  <style name="AppTheme" parent="Base.AppTheme" />
+</resources>

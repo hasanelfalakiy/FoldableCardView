@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">foldablecardview</string>
+    <string name="foldable_card_view_image_content_description">Arrow to fold card</string>
+    <string name="foldable_card_view_icon_content_description">Card icon</string>
+</resources>
