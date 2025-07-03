@@ -55,7 +55,7 @@ afterEvaluate {
 
                 groupId = "com.github.hasanelfalakiy"
                 artifactId = "foldable-cardview"
-                version = "1.0"
+                version = "1.2"
             }
         }
     }
