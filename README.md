@@ -19,6 +19,27 @@ This code is taken from [AleSpero](https://github.com/AleSpero/ExpandableCardVie
 
 First of all, include the dependency in your app build.gradle.kts:
 
+1. Put this code in settings.gradle.kts (root kotlin dsl) in ```repositories``` block
+```kotlin.kts
+  dependencyResolutionManagement {
+    repositories {
+      // example
+      maven {
+        url = uri("https://jitpack.io")
+      }
+    }
+  }
+```
+If using groovy dsl
+```groovy
+  repositories {
+    maven { url 'https://jitpack.io' }
+  }
+```
+
+2. Put dependencies into build.gradle.kts (app/build.gradle.kts kotlin dsl)
+inside the ```dependencies``` block
+
 ```gradle.kts
 implementation("com.github.hasanelfalakiy:foldable-cardview:${version}")
 ```
