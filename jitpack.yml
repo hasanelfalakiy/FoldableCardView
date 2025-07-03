@@ -1,5 +1,5 @@
 jdk:
   - openjdk17
-
-install:
-  - ./gradlew :foldablecardview:bundleReleaseAar
+  
+before_install:
+  - ./scripts/prepareJitpackEnvironment.sh

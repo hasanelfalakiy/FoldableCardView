@@ -14,8 +14,8 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
     }
     
     buildTypes {
@@ -29,6 +29,20 @@ android {
         viewBinding = true
     }
 
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("release") {
+                from(components["release"])
+
+                groupId = "com.github.hasanelfalakiy"
+                artifactId = "foldable-cardview"
+                version = "1.5.1"
+            }
+        }
+    }
 }
 
 dependencies {
@@ -46,16 +60,3 @@ dependencies {
     */
 }
 
-afterEvaluate {
-    publishing {
-        publications {
-            create<MavenPublication>("release") {
-                from(components["release"])
-
-                groupId = "com.github.hasanelfalakiy"
-                artifactId = "foldable-cardview"
-                version = "1.5"
-            }
-        }
-    }
-}
