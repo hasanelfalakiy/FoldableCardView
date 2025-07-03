@@ -41,7 +41,7 @@ If using groovy dsl
 inside the ```dependencies``` block
 
 ```gradle.kts
-implementation("com.github.hasanelfalakiy:foldable-cardview:${version}")
+implementation("com.github.hasanelfalakiy:FoldableCardView:${version}")
 ```
 
 Or get the aar in the [Releases](https://github.com/hasanelfalakiy/FoldableCardView/releases/latest) section.
