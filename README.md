@@ -57,14 +57,14 @@ If you want some basic Foldable Card without any custom behaviour, setting the v
 
 ### Java
 ```java
-FoldableCardView card = findViewById(R.id.profile);
+FoldableCardView card = binding.profile;
 
  //Do stuff here
 ```
 ### Kotlin
 
 ```kotlin
-val card : FoldableCardView = findViewById(R.id.profile)
+val card : FoldableCardView = binding.profile
 
  //Do stuff here
 ```
