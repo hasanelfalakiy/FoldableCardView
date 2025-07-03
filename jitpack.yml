@@ -2,4 +2,4 @@ jdk:
   - openjdk17
 
 install:
-  - ./gradlew :foldablecardview:assembleRelease
+  - ./gradlew :foldablecardview:bundleReleaseAar

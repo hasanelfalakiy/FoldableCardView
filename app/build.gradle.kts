@@ -7,7 +7,6 @@ plugins {
 android {
     namespace = "com.andihasan7.foldablecardview"
     compileSdk = 34
-    buildToolsVersion = "34.0.4"
     
     defaultConfig {
         applicationId = "com.andihasan7.foldablecardview"
