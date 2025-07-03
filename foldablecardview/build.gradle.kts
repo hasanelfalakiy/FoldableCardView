@@ -14,8 +14,8 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     
     buildTypes {
@@ -28,6 +28,10 @@ android {
     buildFeatures {
         viewBinding = true
     }
+    
+    kotlinOptions {
+        jvmTarget = "17"
+    }
 
 }
 
@@ -39,7 +43,7 @@ afterEvaluate {
 
                 groupId = "com.github.hasanelfalakiy"
                 artifactId = "foldable-cardview"
-                version = "1.5.1"
+                version = "1.5.2"
             }
         }
     }
